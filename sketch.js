@@ -25,7 +25,7 @@ let graphics;  // Declare graphics object
 
 function setup() {
     const canvas = createCanvas(664.5, 403); // 50% of window size
-    canvas.position(((windowWidth - width) / 2 + 1.5), ((windowHeight - height) / 2)); // Center the canvas
+    canvas.position(((windowWidth - width) / 2 + 1), ((windowHeight - height) / 2)); // Center the canvas
     //canvas.style('border', '5px solid black'); // Add a border
     //canvas.style('background-color', '#FFFFFF'); // Set canvas background color
 
