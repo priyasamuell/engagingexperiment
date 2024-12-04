@@ -207,7 +207,7 @@ function togglePopup() {
 
 
 function keyPressed() {
-    if (key === '/') {
+    if (key === '/' | key === '?') {
         togglePopup(); // Trigger popup toggle on key press
     }
 
